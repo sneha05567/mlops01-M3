@@ -89,3 +89,7 @@ for config in hyperparameter_configs:
         plt.close()
 
     print(f"Run complete for n_estimators={n_estimators}, max_depth={max_depth}")
+
+# run the below command
+# mlflow ui
+# this should give public link for the tracking of the model, metrics, inputs, outputs
